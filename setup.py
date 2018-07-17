@@ -12,6 +12,7 @@ setup(
 	url = "http://example.com", # project homepage URL
 	author = "ben", # your name
 	author_email = "ben.lin@gogotech.hk", # your email
+	  packages=['sample'],  
 	keywords = "test", # keywords for your module
 	
 	#install_requires = [] # if your project has dependencies, list it here
