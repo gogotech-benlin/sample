@@ -66,10 +66,9 @@ spec:
 		
 			steps{
 				container("node"){
-					echo "install dependencies"
-					sh 'npm install'
-					echo "start doing the test"
-					sh 'npm test'
+					echo "run node "
+					sh "node -v"
+					
 				}
 			}
 		}
