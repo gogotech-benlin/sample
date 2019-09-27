@@ -58,7 +58,7 @@ spec:
 	environment {
 		TESTENV = 'true'
 		registry = "gogotechhk/${appName}:${imageTag}"
-		registryCredential = "dockerhubcredentials"
+		registryCredential = "Dockerhub-GGVDEVOPS"
 	}
 
 	stages{	  
